@@ -1,5 +1,5 @@
 'use client'
-import { arrowData, NewData } from '@/data/Data'
+import { NewData } from '@/data/Data'
 import RankingText from '../RankingText/rankingText'
 import'./RankingSection.css'
 import centerIcon from '@/asset/img/body-Images/Section1/Group 9.png'

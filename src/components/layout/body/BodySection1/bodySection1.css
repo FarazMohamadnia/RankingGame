@@ -1,6 +1,5 @@
 .BodySection1-container{
     position: relative;
-    background-color: black;
 }
 
 .BodySection1-topSection{
@@ -31,6 +30,5 @@
 
 
 .BodySection1-bottomSection{
-    background: linear-gradient(119deg , black 10%,rgb(75, 75, 75,0.25) , rgba(255, 143, 73, 0.301) 40% , rgba(75, 75, 75, 0.25),black);
     padding-bottom: 70px;
 }

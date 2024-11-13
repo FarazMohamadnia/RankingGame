@@ -36,12 +36,3 @@ export const NewData = [
         color : 'linear-gradient(to top left, rgba(255, 142, 73, 0.5) 20%, rgba(255, 142, 73, 1) 140.98%)'
     }
 ]
-
-
-export const arrowData =[
-    {
-        direction :'90deg',
-        positionX : 513,
-        positionY : 84
-    }
-]
