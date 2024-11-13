@@ -1,0 +1,13 @@
+.Header-container{
+    padding-top:41px ;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 22.03%, #111111 88.3%) , url('../../../asset/img/header-image/test_header_Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;  
+}
+
+.Header-arrow-down{
+    text-align: center;
+    margin-top: 35px;
+}

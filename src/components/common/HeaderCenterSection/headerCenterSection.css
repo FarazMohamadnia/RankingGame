@@ -1,0 +1,54 @@
+.HeaderCenterSection-container{
+    width: 525px;
+    height: 280px;
+    margin-top: 275px;
+    text-align: center;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.HeaderCenterSection-container-Btn{
+    width: 192px;
+    height: 50px;
+    top: 629px;
+    left: 624.88px;
+    gap: 0px;
+    border-radius: 65.58px;
+    opacity: 0px;
+    background: rgba(255, 142, 73, 1);
+    box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
+    border: none;
+}
+
+.HeaderCenterSection-container h1{
+    position: relative;
+    /* font-family:; */
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 90px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 142, 73, 1);
+    z-index: 2;
+}
+
+.HeaderCenterSection-container h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 3px; 
+    left: 37px;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #ffffffbf;
+    z-index: -1;
+}
+
+  
+
+.HeaderCenterSection-container h1 span{
+    color: rgba(92, 242, 163, 1);
+}
+
