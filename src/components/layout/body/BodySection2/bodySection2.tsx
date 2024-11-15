@@ -25,9 +25,9 @@ export default function BodySection2(){
     console.log(img3)
     return(
         <div className="bodySection2-container">
+            <span></span>
             <h4>
                 How Ranking Works
-                <span></span>
             </h4>
             <div className='d-flex justify-content-center align-items-center'>
                 <DescriptionBox {...DescriptionBoxData[0]}/>

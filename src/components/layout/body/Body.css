@@ -1,4 +1,16 @@
 .body-container{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.body-background-image1{
+    position: absolute;
+    content: '';
+    width: 2035.47px;
+    height: 1994.11px;
+    left: 0px;
+    top: -50px;
+    filter: blur(50px);
     background:linear-gradient(rgba(0, 0, 0, 5) , rgba(0, 0, 0, 0.5)) , url('../../../asset/img/body-Images/Section2/Vector.png');
     background-color: black;
     background-position-x:-200px ;
@@ -6,10 +18,16 @@
     background-repeat: no-repeat;
 }
 
-.body-background-image{
-    background:linear-gradient(rgba(0, 0, 0, 0.453) , rgba(0, 0, 0, 0.411)), url('../../../asset/img/body-Images/Section2/GreenVector.png');
-    background-position-x:160px ;
-    background-position-y: 1370px ;
+.body-background-image2{
+    position: absolute;
+    content: '';
+    width: 2035.47px;
+    height: 1994.11px;
+    filter: blur(150px);
+    right: -800px;
+    top: 1400px;
+    background: url('../../../asset/img/body-Images/Section2/GreenVector.png');
     background-repeat: no-repeat;
 }
+
 

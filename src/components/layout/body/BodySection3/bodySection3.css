@@ -1,0 +1,78 @@
+.BodySection3-container{
+    padding-inline : 152px;
+    min-height: 500px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.BodySection3-topSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BodySection3-topSection-image-style{
+    position: absolute;
+    width: 696px;
+    height: 634px;
+    left: 70px;
+    top: -90px;
+    z-index: 1;
+}
+.BodySection3-topSection-right{
+    position: absolute;
+    width: 541px;
+    right: 95px;
+    top: 100px;
+
+}
+.BodySection3-topSection-right img{
+    width: 57.3px;
+    height: 59.32px;
+    border: 1px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.BodySection3-BottomSection-box{
+    position: relative;
+    width: 1137px;
+    height: 324px;
+    gap: 10px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(255, 142, 73, 0.7) 0%, rgba(255, 142, 73, 0) 100%);
+    margin-top: 350px;
+    border: 2px solid;
+    border-color: linear-gradient(93.39deg, rgba(255, 255, 255, 0.8) 1.9%, rgba(255, 255, 255, 0.3) 100.98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 90px;
+}
+
+
+.BodySection3-BottomSection-box button{
+    width: 153px;
+    height: 49.84px;
+    border-radius: 65.58px;
+    background-color: rgb(92, 242, 162);
+    cursor: pointer;
+    border: none;
+    z-index: 2;
+}
+
+.BodySection3-BottomSection-box span{
+    position: absolute;
+    content: '';
+    background-image: url('../../../../asset/img/body-Images/Section3/gameIcon.png');
+    background-repeat: no-repeat;
+    width: 351.88px;
+    height: 320.41px;
+    opacity: 0.2px;
+    top: 0px;
+    right: -48px;
+    z-index: 0;
+}

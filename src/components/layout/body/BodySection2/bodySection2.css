@@ -1,22 +1,22 @@
 .bodySection2-container{
-    height: 2000px;
+    position: relative;
+    margin-bottom: 25px;
 }
 
 .bodySection2-container h4{
     margin-bottom: 90px;
     margin-top: 30px;
-    position: relative;
     font-size: 50px;
     text-align: center;
     color: white;
 }
 
-.bodySection2-container h4 span{
+.bodySection2-container span{
     content: '';
     position: absolute;
     z-index: 0;
-    max-width: 154px;
-    max-height: 154px;
+    width: 154px;
+    height: 154px;
     background-image: url('../../../../asset/img/body-Images/Section2/Layer_1.png');
     right: 620px;
     top: -45px;
