@@ -2,6 +2,7 @@ import BodySection1 from "./BodySection1/bodySection1";
 import BodySection2 from "./BodySection2/bodySection2";
 import './Body.css'
 import BodySection3 from "./BodySection3/bodySection3";
+import BodySection4 from "./BodySection4/bodySection4";
 export default function Body(){
     return(
         <div className="body-container">
@@ -11,6 +12,7 @@ export default function Body(){
                 <BodySection1 />
                 <BodySection2 />
                 <BodySection3 />
+                <BodySection4 />
             </div>
         </div>
         

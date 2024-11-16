@@ -23,11 +23,12 @@
     content: '';
     width: 2035.47px;
     height: 1994.11px;
-    filter: blur(150px);
+    filter: blur(850px);
     right: -800px;
     top: 1400px;
-    background: url('../../../asset/img/body-Images/Section2/GreenVector.png');
+    background:linear-gradient(rgba(0, 0, 0,1) , rgba(0, 0, 0, 0.1)), url('../../../asset/img/body-Images/Section2/GreenVector.png');
     background-repeat: no-repeat;
+    z-index: 0;
 }
 
 
