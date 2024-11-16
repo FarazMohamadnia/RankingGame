@@ -55,6 +55,7 @@
 
 
 .BodySection3-BottomSection-box button{
+    position: relative;
     width: 153px;
     height: 49.84px;
     border-radius: 65.58px;
