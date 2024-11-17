@@ -5,6 +5,7 @@ import BodySection3 from "./BodySection3/bodySection3";
 import BodySection4 from "./BodySection4/bodySection4";
 import BodySection5 from "./BodySection5/bodySection5";
 import BodySection6 from "./bodySection6/BodySection6";
+import Footer from "../footer/Footer";
 export default function Body(){
     return(
         <div className="body-container">
@@ -18,6 +19,7 @@ export default function Body(){
                 <BodySection4 />
                 <BodySection5 />
                 <BodySection6 />
+                <Footer />
             </div>
         </div>
         

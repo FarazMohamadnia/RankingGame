@@ -25,6 +25,7 @@ export default function BodySection5(){
         try{
             const response =await axios.post('http://localhost:4000/api/users/subscribe',data);
             setBtnDisabled(false)
+            console.log(response)
             if(response.status === 201){
                 Swal.fire({
                     title: "Good job!",
@@ -51,7 +52,7 @@ export default function BodySection5(){
                     <p className='bodySection5-title'>Ready to Revolutionize Your Gaming?</p>
                     <p className='bodySection5-text'>Join thousands of gamers who are waiting to earn with Ranking. Your journey starts soon. Embrace the future of gaming and turn your passion into profit.</p>
                 </div>
-                <div className='d-flex flex-column justify-content-early h-75 align-items-end text-start'>
+                <div className='position-relative d-flex flex-column justify-content-early h-75 align-items-end text-start'>
                     <input onChange={getData} name='name' type="text" placeholder='Enter Your Name'/>
                     <input onChange={getData} name='email' type="text" placeholder='Enter Your Email'/>
                     <button disabled={BtnDisabled} onClick={sendData}>Join Waitlist</button>
