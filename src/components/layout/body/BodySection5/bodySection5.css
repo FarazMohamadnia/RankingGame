@@ -73,3 +73,16 @@
     background: rgba(92, 242, 163, 1);
     cursor: pointer;
 }
+
+.bodySection5-polygon{
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: rgba(255, 142, 73, 1);
+    box-shadow: 0px 3px 18.7px 0px rgba(255, 142, 73, 1);
+    bottom: 95px;
+    right: 700px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform:rotate(180deg);
+}

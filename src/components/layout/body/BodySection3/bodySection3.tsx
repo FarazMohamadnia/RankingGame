@@ -25,6 +25,7 @@ export default function BodySection3(){
                         </div>
                 </div>
             </div>
+            <span className='BodySection3-polygon'></span>
         </div>
     )
 }

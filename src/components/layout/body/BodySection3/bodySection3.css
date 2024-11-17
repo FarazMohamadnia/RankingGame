@@ -77,3 +77,16 @@
     right: -48px;
     z-index: 0;
 }
+
+.BodySection3-polygon{
+    box-shadow: 0px 3px 18.7px 3px rgba(92, 242, 163, 1);
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: rgba(92, 242, 163, 1);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform:rotate(180deg);
+    bottom: -20px;
+    right: 700px;
+}

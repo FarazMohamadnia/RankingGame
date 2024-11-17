@@ -26,7 +26,7 @@ export default function BodySection5(){
             const response =await axios.post('http://localhost:4000/api/users/subscribe',data);
             setBtnDisabled(false)
             console.log(response)
-            if(response.status === 201){
+            if(response.status === 200){
                 Swal.fire({
                     title: "Good job!",
                     text: "You clicked the button!",
@@ -38,7 +38,7 @@ export default function BodySection5(){
             setBtnDisabled(false)
             console.log(err);
             Swal.fire({
-                title: {err},
+                title: 'Error',
                 text: "Try again !!",
                 icon: "error"
               });
@@ -58,6 +58,7 @@ export default function BodySection5(){
                     <button disabled={BtnDisabled} onClick={sendData}>Join Waitlist</button>
                 </div>
             </div>
+            <span className='bodySection5-polygon'></span>
         </div>
     )
 }

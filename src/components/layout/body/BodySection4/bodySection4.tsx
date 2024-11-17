@@ -3,6 +3,9 @@ import img1 from '@/asset/img/body-Images/Section4/CoinIcon.png';
 import img2 from '@/asset/img/body-Images/Section4/HumanWithCoinIcon.png';
 import img3 from '@/asset/img/body-Images/Section4/candelStickIcon.png';
 import img4 from '@/asset/img/body-Images/Section4/Icon1.png';
+import img5 from '@/asset/img/body-Images/Section4/newIcon.png'
+import img6 from '@/asset/img/body-Images/Section4/newIcon2.png'
+
 import './bodySection4.css'
 interface DataObj{
     img : string,
@@ -11,7 +14,7 @@ interface DataObj{
 
 const Data = [
     {
-        img :'',
+        img :  img5.src,
         text :'Turn your scores into money'
     },
     {
@@ -19,7 +22,7 @@ const Data = [
         text :'Monetize Your Playtime'
     },
     {
-        img :'',
+        img :img6.src,
         text :'Go Nuts, Get Seen'
     },
     {
