@@ -31,4 +31,19 @@
     z-index: 0;
 }
 
+.body-background-image3{
+    position: absolute;
+    content: '';
+    width: 3635.47px;
+    height: 1994.11px;
+    top: 3300px;
+    left: 0px;
+    filter: blur(70px);
+    background:linear-gradient(rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0.05)) , url('../../../asset/img/body-Images/Section2/Vector.png');
+    background-color: black;
+    background-position-x:-200px ;
+    background-position-y: 470px ;
+    background-repeat: no-repeat;
+}
+
 

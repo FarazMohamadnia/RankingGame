@@ -1,5 +1,4 @@
 import './bodySection4Box.css'
-import img from '../../../../asset/img/body-Images/Section4/CoinIcon.png'
 
 interface DataObj{
     img : string,

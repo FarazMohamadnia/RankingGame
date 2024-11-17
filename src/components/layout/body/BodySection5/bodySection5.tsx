@@ -1,5 +1,48 @@
+'use client'
+import { useState } from 'react'
 import './bodySection5.css'
+import axios from 'axios'
+import Swal from 'sweetalert2'
+interface dataType{
+    email : string,
+    name : string
+}
 export default function BodySection5(){
+    //change type 
+    const [data , setdata] = useState<any>( null );
+    const [BtnDisabled ,setBtnDisabled]=useState<boolean>(false)
+    const getData = (e : React.ChangeEvent<HTMLInputElement>)=>{
+        const value = e.target.value;
+        const name = e.target.name; 
+        setdata({
+            ...data ,
+            [name]: value
+        })
+    }
+
+    const sendData =async()=>{
+        setBtnDisabled(true)
+        try{
+            const response =await axios.post('http://localhost:4000/api/users/subscribe',data);
+            setBtnDisabled(false)
+            if(response.status === 201){
+                Swal.fire({
+                    title: "Good job!",
+                    text: "You clicked the button!",
+                    icon: "success"
+                  });
+                  
+            }
+        }catch(err){
+            setBtnDisabled(false)
+            console.log(err);
+            Swal.fire({
+                title: {err},
+                text: "Try again !!",
+                icon: "error"
+              });
+        }
+    }
     return(
         <div className="bodySection5-container">
             <div className="bodySection5-layout">
@@ -9,9 +52,9 @@ export default function BodySection5(){
                     <p className='bodySection5-text'>Join thousands of gamers who are waiting to earn with Ranking. Your journey starts soon. Embrace the future of gaming and turn your passion into profit.</p>
                 </div>
                 <div className='d-flex flex-column justify-content-early h-75 align-items-end text-start'>
-                    <input type="text" placeholder='Enter Your Name'/>
-                    <input type="text" placeholder='Enter Your Email'/>
-                    <button>Join Waitlist</button>
+                    <input onChange={getData} name='name' type="text" placeholder='Enter Your Name'/>
+                    <input onChange={getData} name='email' type="text" placeholder='Enter Your Email'/>
+                    <button disabled={BtnDisabled} onClick={sendData}>Join Waitlist</button>
                 </div>
             </div>
         </div>
