@@ -1,8 +1,18 @@
+'use client'
 import './headerCenterSection.css'
-import textIcon from '../../../asset/img/header-image/RANK_TO_EARN.png'
+
 export default function HeaderCenterSection(){
     return(
         <div className='HeaderCenterSection-container'>
+            <video
+                controls
+                autoPlay
+                loop
+                muted
+                poster=""
+            > 
+                <source src="/video/ProjectVideo.mp4" type="video/mp4" />
+            </video>
             <div>
                 {/* <img src={textIcon.src}/> */}
                 <h1 style={{fontFamily : 'none'}} data-text="RANK TO EARN">RANK TO <span style={{fontFamily : 'none'}}>EARN</span></h1>
