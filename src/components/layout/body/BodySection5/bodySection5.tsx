@@ -3,13 +3,12 @@ import { useState } from 'react'
 import './bodySection5.css'
 import axios from 'axios'
 import Swal from 'sweetalert2'
-interface dataType{
-    email : string,
-    name : string
+interface DataType {
+    name: string,
+    value : string
 }
 export default function BodySection5(){
-    //change type 
-    const [data , setdata] = useState<any>( null );
+    const [data , setdata] = useState<DataType>( {name : '' , value : ''} );
     const [BtnDisabled ,setBtnDisabled]=useState<boolean>(false)
     const getData = (e : React.ChangeEvent<HTMLInputElement>)=>{
         const value = e.target.value;

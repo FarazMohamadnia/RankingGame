@@ -3,10 +3,7 @@ import Navbar from "@/components/common/navbar/Navbar";
 import './Header.css'
 import HeaderCenterSection from "@/components/common/HeaderCenterSection/headerCenterSection";
 import { IoMdArrowDropdown } from "react-icons/io";
-// @ts-ignore
-import Video from '../../../../public/video/ProjectVideo.mp4'
 export default function Header(){
-    console.log(Video)
     return(
         <div className="Header-container">
             <div>

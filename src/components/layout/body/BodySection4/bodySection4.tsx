@@ -3,15 +3,10 @@ import img1 from '@/asset/img/body-Images/Section4/CoinIcon.png';
 import img2 from '@/asset/img/body-Images/Section4/HumanWithCoinIcon.png';
 import img3 from '@/asset/img/body-Images/Section4/candelStickIcon.png';
 import img4 from '@/asset/img/body-Images/Section4/Icon1.png';
-import img5 from '@/asset/img/body-Images/Section4/newIcon.png'
-import img6 from '@/asset/img/body-Images/Section4/newIcon2.png'
+import img5 from '@/asset/img/body-Images/Section4/newIcon.png';
+import img6 from '@/asset/img/body-Images/Section4/newIcon2.png';
 
-import './bodySection4.css'
-interface DataObj{
-    img : string,
-    text : string
-}
-
+import './bodySection4.css';
 const Data = [
     {
         img :  img5.src,
@@ -46,7 +41,7 @@ export default function BodySection4(){
                 <h5>Win or Lose, <span className='color2'>You Earn Either Way</span></h5>
                 <div className='d-flex justify-content-center align-items-center flex-wrap'>
                     {
-                        Data.map(data => <BodySection4Box {...data}/> )
+                        Data.map(data => <BodySection4Box key={data.text} {...data}/> )
                     }
                 </div>
             </div>
