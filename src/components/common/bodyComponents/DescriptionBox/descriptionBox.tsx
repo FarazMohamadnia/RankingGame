@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './descriptionBox.css'
 interface DescriptionBoxType{
     title : string,
