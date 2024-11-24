@@ -57,13 +57,13 @@
     height: 135px;
     opacity: 20%;
     color: rgba(255, 255, 255, 1);
-    font-weight: 800;
+    font-weight: bold;
     margin-right: 20px;
 }
 
 .RankingText-title-style{
     font-size: 20px;
-    font-weight: 800;
+    font-weight: bold;
     line-height: 24px;
     text-align: left;
 }
@@ -209,12 +209,125 @@
     -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
             clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
 }
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection1/bodySection1.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.BodySection1-container{
+    position: relative;
+}
+
+.BodySection1-topSection{
+    padding-inline: 150px;
+}
+
+.BodySection1-topSection-left{
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+
+.BodySection1-topSection img{
+    width:1008px;
+    height: 567px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    z-index: 1;
+}
+
+.BodySection1-topSection-Icon{
+    position: relative;
+    width: 84px;
+    height: 84px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.BodySection1-topSection-Icon img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 12.5px;
+    top: 12.5px;
+}
+
+.BodySection1-bottomSection{
+    padding-bottom: 70px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/common/bodyComponents/DescriptionBox/descriptionBox.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.DescriptionBox-container{
+    position: relative;
+    width: 345px;
+    height: 322px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding-top: 131px;
+    padding-inline: 28px;
+    margin: 10px;
+    background: rgba(154, 81, 255, 0.1);
+}
+
+.DescriptionBox-container img{
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    max-width: 238px;
+    height: 238px;
+    display: flex;
+}
+
+.DescriptionBox-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.DescriptionBox-text{
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 19.2px;
+    text-align: justify;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection2/bodySection2.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.bodySection2-container{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bodySection2-container h4{
+    margin-bottom: 6rem;
+    margin-top: 30px;
+    font-size: 43px;
+    text-align: center;
+    color: white;
+}
+
+.bodySection2-container span{
+    content: '';
+    position: absolute;
+    z-index: 0;
+    width: 154px;
+    height: 154px;
+    background-image: url(/_next/static/media/Layer_1.6ef140c7.png);
+    right: 645px;
+    top: -45px;
+}
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/Body.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
 .body-container{
     background-color: rgb(0, 0, 0);
     position: relative;
+    overflow: hidden;
 }
 
 .body-background-image1{
@@ -224,7 +337,7 @@
     height: 1994.11px;
     left: 0px;
     top: -50px;
-    filter: blur(50px);
+    filter: blur(30px);
     background:linear-gradient(rgba(0, 0, 0, 5) , rgba(0, 0, 0, 0.5)) , url(/_next/static/media/Vector.29655502.png);
     background-color: black;
     background-position-x:-200px ;
@@ -264,193 +377,6 @@
 
 
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection1/bodySection1.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************/
-.BodySection1-container{
-    position: relative;
-}
-
-.BodySection1-topSection{
-    padding-inline: 150px;
-}
-
-.BodySection1-topSection-left{
-    padding-top: 200px;
-}
-
-.BodySection1-topSection img{
-    width:1008px;
-    height: 567px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: 0px;
-    z-index: 1;
-}
-
-.BodySection1-topSection-Icon{
-    width: 84px;
-    height: 84px;
-    background-color: rgb(56, 56, 56);
-    border-radius: 10px;
-}
-
-
-.BodySection1-bottomSection{
-    padding-bottom: 70px;
-}
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection2/bodySection2.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************/
-.bodySection2-container{
-    position: relative;
-    margin-bottom: 25px;
-}
-
-.bodySection2-container h4{
-    margin-bottom: 90px;
-    margin-top: 30px;
-    font-size: 50px;
-    text-align: center;
-    color: white;
-}
-
-.bodySection2-container span{
-    content: '';
-    position: absolute;
-    z-index: 0;
-    width: 154px;
-    height: 154px;
-    background-image: url(/_next/static/media/Layer_1.6ef140c7.png);
-    right: 620px;
-    top: -45px;
-}
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/common/bodyComponents/DescriptionBox/descriptionBox.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
-.DescriptionBox-container{
-    position: relative;
-    width: 345px;
-    height: 322px;
-    gap: 10px;
-    border-radius: 16px;
-    opacity: 0px;
-    border: 2px solid;
-    border-color : linear-gradient(130.71deg, #FFFFFF, rgba(255, 255, 255, 0.5) 113.56%);
-    padding-top: 131px;
-    padding-inline: 28px;
-    margin: 10px;
-    background: rgba(154, 81, 255, 0.08);
-
-}
-
-.DescriptionBox-container img{
-    position: absolute;
-    top: -70px;
-    right: 0px;
-    max-width: 238px;
-    height: 238px;
-    display: flex;
-}
-
-.DescriptionBox-title{
-    font-size: 50px;
-    font-weight: 800;
-}
-
-.DescriptionBox-text{
-    font-size: 16px;
-    font-weight: 450;
-    line-height: 19.2px;
-    text-align: justify;
-    -webkit-text-decoration-skip-ink: none;
-            text-decoration-skip-ink: none;
-}
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection4/bodySection4.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************/
-.bodySection4-container{
-    padding-bottom: 110px;
-}
-.bodySection4-layout{
-    width: 1137px;
-    height: 839px;
-    gap: 10px;
-    border-radius: 16px;
-    background: linear-gradient(179.9deg, rgba(102, 102, 102, 0) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
-    background-blend-mode: multiply;
-    border: 2px solid;
-    border-color: linear-gradient(132.55deg, #5CF2A3 -3.74%, rgba(92, 242, 163, 0.5) 121.72%);
-    margin-inline: auto;
-    margin-top: 80px;
-    z-index: 1;
-    padding-inline: 50px;
-    position: relative;
-}
-
-.bodySection4-Icon{
-    position: absolute;
-    content: '';
-    background-image: url(/_next/static/media/Vector.418ead63.png);
-    width: 132px;
-    height: 155px;
-    top: 80px;
-    left: 499px;
-    gap: 0px;
-    opacity: 0.15px;
-
-}
-
-.bodySection4-Star-Icon{
-    position: absolute;
-    background-image: url(/_next/static/media/Vector2.eda2d63e.png);
-    width: 62px;
-    height: 57px;
-    top: 30px;
-    left: 35px;
-    opacity: 0.15px;
-}
-
-.bodySection4-layout h5{
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 60px;
-    text-align: center;
-    color: white;
-    margin-top: 125px;
-    margin-bottom: 50px;
-    z-index: 2;
-}
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/common/bodyComponents/BodySection4Box/bodySection4Box.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
-.bodySection4Box-container{
-    width: 487px;
-    height: 145px;
-    gap: 10px;
-    border-radius: 16px;
-    border: 2px;
-    background: linear-gradient(179.9deg, rgba(102, 102, 102, 0.1) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
-    background-blend-mode: multiply;
-    border: 2px solid rgba(92, 242, 163, 0.6);
-    color: white;
-    position: relative;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px;
-}
-.bodySection4Box-text-Section{
-    width: 205px;
-    left: 267px;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 42px;
-    text-align: left;
-}
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection3/bodySection3.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************/
 .BodySection3-container{
@@ -483,12 +409,13 @@
 
 }
 .BodySection3-topSection-right img{
-    width: 57.3px;
-    height: 59.32px;
+    width: 84px;
+    height: 84px;
     border: 1px;
     background-color: rgb(64, 64, 64);
     border-radius: 10px;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 
@@ -500,8 +427,7 @@
     border-radius: 18px;
     background: linear-gradient(180deg, rgba(255, 142, 73, 0.7) 0%, rgba(255, 142, 73, 0) 100%);
     margin-top: 350px;
-    border: 2px solid;
-    border-color: linear-gradient(93.39deg, rgba(255, 255, 255, 0.8) 1.9%, rgba(255, 255, 255, 0.3) 100.98%);
+    border: 2px solid rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -534,17 +460,93 @@
 }
 
 .BodySection3-polygon{
-    box-shadow: 0px 3px 18.7px 3px rgba(92, 242, 163, 1);
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0px 0px 3px rgba(92, 242, 163, 1));
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/common/bodyComponents/BodySection4Box/bodySection4Box.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bodySection4Box-container{
+    width: 487px;
+    height: 145px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px;
+    background: linear-gradient(179.9deg, rgba(102, 102, 102, 0.1) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
+    background-blend-mode: multiply;
+    border: 2px solid rgba(92, 242, 163, 0.6);
+    color: white;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.bodySection4Box-text-Section{
+    width: 205px;
+    left: 267px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: left;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection4/bodySection4.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.bodySection4-container{
+    padding-bottom: 4rem;
+}
+.bodySection4-layout{
+    width: 1137px;
+    gap: 10px;
+    border-radius: 16px;
+    background: linear-gradient(179.9deg, rgba(102, 102, 102, 0) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
+    background-blend-mode: multiply;
+    border: 2px solid rgba(92, 242, 163, 0.6);
+    margin-inline: auto;
+    margin-top: 80px;
+    z-index: 1;
+    padding-inline: 50px;
+    padding-bottom: 70px ;
+    position: relative;
+}
+
+.bodySection4-Icon{
     position: absolute;
     content: '';
-    width: 14px;
-    height: 14px;
-    background: rgba(92, 242, 163, 1);
-    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    transform:rotate(180deg);
-    bottom: -20px;
-    right: 700px;
+    background-image: url(/_next/static/media/Vector.418ead63.png);
+    width: 132px;
+    height: 155px;
+    top: 80px;
+    left: 499px;
+    gap: 0px;
+    opacity: 0.15px;
+
+}
+
+.bodySection4-Star-Icon{
+    position: absolute;
+    background-image: url(/_next/static/media/Vector2.eda2d63e.png);
+    width: 62px;
+    height: 57px;
+    top: 30px;
+    left: 35px;
+    opacity: 0.15px;
+}
+
+.bodySection4-layout h5{
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 115px;
+    margin-bottom: 60px;
+    z-index: 2;
 }
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/BodySection5/bodySection5.css ***!
@@ -563,8 +565,7 @@
     border-radius: 18px;
     border: 2px;
     background: linear-gradient(180deg, rgba(255, 142, 73, 0.7) 0%, rgba(255, 142, 73, 0) 100%);
-    border: 2px solid;
-    border-color: linear-gradient(93.39deg, rgba(255, 255, 255, 0.8) 1.9%, rgba(255, 255, 255, 0) 100.98%);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -586,8 +587,7 @@
 .bodySection5-title{
     width: 554px;
     height: 120px;
-    font-size: 50px;
-    font-weight: 1000;
+    font-weight: 900;
     line-height: 60px;
     text-align: left;
     margin-bottom: 20px;
@@ -628,16 +628,38 @@
 
 .bodySection5-polygon{
     position: absolute;
-    content: '';
-    width: 14px;
-    height: 14px;
-    background: rgba(255, 142, 73, 1);
-    box-shadow: 0px 3px 18.7px 0px rgba(255, 142, 73, 1);
-    bottom: 95px;
-    right: 700px;
-    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    transform:rotate(180deg);
+    bottom: 60px;
+    right: 680px;
+    transform:translate(-50%, -50%);
+    filter: drop-shadow(0px 0px 4px rgba(255, 142, 73, 1));
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/bodySection6/BodySection6.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.bodySection6-Container{
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.BodySection6-Icon{
+    position: absolute;
+    background-image: url(/_next/static/media/Icon.8b22a9b1.png);
+    top: -50px;
+    left: 653px;
+    width: 146.73px;
+    height: 128.9px;
+    border: 4px;
+    opacity: 0.15px;
+}
+
+.BodySection6-article-layout{
+    margin-top: 60px;
+    padding-inline: 120px;
+    width:1,136px;
+    height:446px;
+    gap: 20px;
+    display: flex;
+    margin-inline: auto;
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/footer/Footer.css ***!
@@ -696,7 +718,7 @@
 .footer-bottonSection{
     width: 1125px;
     height: 54px;
-    padding: 0px 0px 0.1px 0px;
+    padding: 15px 0px 0.1px 0px;
     gap: 30.54px;
     opacity: 0.7px;
     margin-inline: auto;
@@ -705,6 +727,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 1px solid gray;
 }
 
 .footer-text-style{
@@ -736,37 +759,12 @@
     justify-content: space-between;
     align-items: center;
 }
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/layout/body/bodySection6/BodySection6.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************/
-.bodySection6-Container{
-    position: relative;
-    padding-bottom: 100px;
-}
-
-.BodySection6-Icon{
-    position: absolute;
-    background-image: url(/_next/static/media/Icon.8b22a9b1.png);
-    top: -50px;
-    left: 653px;
-    width: 146.73px;
-    height: 128.9px;
-    border: 4px;
-    opacity: 0.15px;
-}
-
-.BodySection6-article-layout{
-    margin-top: 60px;
-    padding-inline: 120px;
-    width:1,136px;
-    height:446px;
-    gap: 20px;
-    display: flex;
-}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/common/navbar/Navbar.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
 .navbar-container{
+    position: relative;
+    z-index: 2;
     width: 1329px;
     height: 80px;
     border: 2px solid rgba(112, 112, 112, 0.5);
@@ -843,6 +841,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/common/HeaderCenterSection/headerCenterSection.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************/
 .HeaderCenterSection-container{
+    position: relative;
     width: 525px;
     height: 280px;
     margin-top: 275px;
@@ -851,25 +850,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .HeaderCenterSection-container video{
-    width: 100%;
-    height: 100%;
-    left: 0px;
+    width: 1500px;
+    height: 850px;
     position: absolute;
-    top: 0px;
+    left: -500px;
+    top: -390px;
     z-index: -1;
-    background-color: black;
+    background:black;
+    opacity: 0.4;
 }
+
 .HeaderCenterSection-container-Btn{
     width: 192px;
     height: 50px;
     top: 629px;
     left: 624.88px;
-    gap: 0px;
+    opacity: 1;
     border-radius: 65.58px;
-    opacity: 0px;
     background: rgba(255, 142, 73, 1);
     box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
     border: none;
@@ -878,7 +879,7 @@
 .HeaderCenterSection-container h1{
     position: relative;
     font-size: 60px;
-    font-weight: 1000;
+    font-weight: 900;
     line-height: 90px;
     text-align: center;
     text-underline-position: from-font;
@@ -891,14 +892,23 @@
 .HeaderCenterSection-container h1::before{
     content: attr(data-text);
     position: absolute;
-    top: 3px; 
-    left: 37px;
+    top: 2px; 
+    left: 35px;
     color: transparent;
-    -webkit-text-stroke: 0.5px #ffffffbf;
+    -webkit-text-stroke: 1px #ffffffbf;
     z-index: -1;
 }
 
-  
+.HeaderCenterSection-bottom-shadow{
+    width: 100vw;
+    height: 10rem;
+    background: linear-gradient(180deg,hsla(0,0%,7%,0) 22.03%,#111 88.3%);
+    position: absolute;
+    bottom: -200px;
+    right: -458px;
+    z-index: 2;
+    filter: blur(5);
+}  
 
 .HeaderCenterSection-container h1 span{
     color: rgba(92, 242, 163, 1);

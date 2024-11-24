@@ -20,7 +20,7 @@ export default function RankingSection(){
                 <span className='RankingSection-line RankingSection-line-size2'></span>
                 <span className='RankingSection-line RankingSection-line-size3'></span>
                 <span className='RankingSection-line RankingSection-line-size4'></span>
-                <span className='RankingSection-line-right'></span>
+                <span className='RankingSection-line-right'></span> 
                 <span className='RankingSection-line-left'></span>
                 <span style={{top : '84px' , right : '513px' }} className='RankingSection-arrow-style'></span>
                 <span style={{transform : 'rotate(90deg)' , top :'180px' , right : '17px' }} className='RankingSection-arrow-style'></span>

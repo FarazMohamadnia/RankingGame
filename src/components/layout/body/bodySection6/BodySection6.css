@@ -21,4 +21,5 @@
     height:446px;
     gap: 20px;
     display: flex;
+    margin-inline: auto;
 }

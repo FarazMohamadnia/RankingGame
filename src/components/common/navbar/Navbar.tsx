@@ -5,7 +5,6 @@ export default function Navbar(){
         <div className="navbar-container">
             <div className='navbar-section-1'>
                 <div className='navbar-component-Icon'>
-                    {/* src for type script */}
                    <img src={navImg.src}/>
                 </div>
                 <div className='navbar-component-links'> 

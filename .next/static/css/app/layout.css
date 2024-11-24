@@ -27,6 +27,17 @@ a {
   color: rgba(92, 242, 163, 1);
 }
 
+.home-layout{
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+.home-response{
+  max-width: 1500px;
+  margin-inline: auto;
+}
+
 @font-face {
   font-family: 'RetailVariable';
   src: url(/_next/static/media/RetailVariable.7f851234.ttf); 

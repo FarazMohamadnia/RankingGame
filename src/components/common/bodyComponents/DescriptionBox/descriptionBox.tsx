@@ -6,7 +6,6 @@ interface DescriptionBoxType{
 }
 export default function DescriptionBox(data : DescriptionBoxType){
     const {title , text , img } = data
-    console.log(img)
     return(
         <div className="DescriptionBox-container">
             <img src={img}/>

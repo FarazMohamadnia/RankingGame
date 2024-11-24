@@ -18,13 +18,13 @@
     height: 135px;
     opacity: 20%;
     color: rgba(255, 255, 255, 1);
-    font-weight: 800;
+    font-weight: bold;
     margin-right: 20px;
 }
 
 .RankingText-title-style{
     font-size: 20px;
-    font-weight: 800;
+    font-weight: bold;
     line-height: 24px;
     text-align: left;
 }

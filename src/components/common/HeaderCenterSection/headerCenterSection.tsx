@@ -1,21 +1,18 @@
 'use client'
 import './headerCenterSection.css'
-
+import textImg from '../../../asset/img/body-Images/Section1/RanktoearnText.png';
 export default function HeaderCenterSection(){
     return(
         <div className='HeaderCenterSection-container'>
             <video
-                controls
                 autoPlay
                 loop
                 muted
-                poster=""
             > 
                 <source src="/video/ProjectVideo.mp4" type="video/mp4" />
             </video>
             <div>
-                {/* <img src={textIcon.src}/> */}
-                <h1 style={{fontFamily : 'none'}} data-text="RANK TO EARN">RANK TO <span style={{fontFamily : 'none'}}>EARN</span></h1>
+                <img className='mx-auto' src={textImg.src}/>
             </div>
             <div>
                 <p className='fs-1 text-light'>
@@ -26,6 +23,7 @@ export default function HeaderCenterSection(){
             <div>
                 <button className='HeaderCenterSection-container-Btn'>Get Early Access</button>
             </div>
+            <span className='HeaderCenterSection-bottom-shadow'></span>
         </div>
     )
 }

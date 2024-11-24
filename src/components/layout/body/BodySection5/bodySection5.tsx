@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './bodySection5.css'
 import axios from 'axios'
 import Swal from 'sweetalert2'
+import { MdOutlineArrowDropDown } from "react-icons/md";
 interface DataType {
     name: string,
     value : string
@@ -48,7 +49,7 @@ export default function BodySection5(){
             <div className="bodySection5-layout">
                 <span className='bodySection5-Icon'></span>
                 <div className="">
-                    <p className='bodySection5-title'>Ready to Revolutionize Your Gaming?</p>
+                    <p className='bodySection5-title fs-1'>Ready to Revolutionize Your Gaming?</p>
                     <p className='bodySection5-text'>Join thousands of gamers who are waiting to earn with Ranking. Your journey starts soon. Embrace the future of gaming and turn your passion into profit.</p>
                 </div>
                 <div className='position-relative d-flex flex-column justify-content-early h-75 align-items-end text-start'>
@@ -57,7 +58,7 @@ export default function BodySection5(){
                     <button disabled={BtnDisabled} onClick={sendData}>Join Waitlist</button>
                 </div>
             </div>
-            <span className='bodySection5-polygon'></span>
+            <span><MdOutlineArrowDropDown className='bodySection5-polygon' color='rgba(255, 142, 73, 1)' size={'45px'}/></span>
         </div>
     )
 }

@@ -1,4 +1,6 @@
 .navbar-container{
+    position: relative;
+    z-index: 2;
     width: 1329px;
     height: 80px;
     border: 2px solid rgba(112, 112, 112, 0.5);

@@ -4,9 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Body />
+    <div className="home-layout">
+      <div className="home-response">
+        <Header />
+        <Body />
+      </div>
     </div>
     
 

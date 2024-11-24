@@ -1,19 +1,18 @@
 .bodySection4-container{
-    padding-bottom: 110px;
+    padding-bottom: 4rem;
 }
 .bodySection4-layout{
     width: 1137px;
-    height: 839px;
     gap: 10px;
     border-radius: 16px;
     background: linear-gradient(179.9deg, rgba(102, 102, 102, 0) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
     background-blend-mode: multiply;
-    border: 2px solid;
-    border-color: linear-gradient(132.55deg, #5CF2A3 -3.74%, rgba(92, 242, 163, 0.5) 121.72%);
+    border: 2px solid rgba(92, 242, 163, 0.6);
     margin-inline: auto;
     margin-top: 80px;
     z-index: 1;
     padding-inline: 50px;
+    padding-bottom: 70px ;
     position: relative;
 }
 
@@ -41,12 +40,12 @@
 }
 
 .bodySection4-layout h5{
-    font-size: 50px;
+    font-size: 43px;
     font-weight: 800;
     line-height: 60px;
     text-align: center;
     color: white;
-    margin-top: 125px;
-    margin-bottom: 50px;
+    margin-top: 115px;
+    margin-bottom: 60px;
     z-index: 2;
 }

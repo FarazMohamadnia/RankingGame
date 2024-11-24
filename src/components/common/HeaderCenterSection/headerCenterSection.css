@@ -1,4 +1,5 @@
 .HeaderCenterSection-container{
+    position: relative;
     width: 525px;
     height: 280px;
     margin-top: 275px;
@@ -7,25 +8,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .HeaderCenterSection-container video{
-    width: 100%;
-    height: 100%;
-    left: 0px;
+    width: 1500px;
+    height: 850px;
     position: absolute;
-    top: 0px;
+    left: -500px;
+    top: -390px;
     z-index: -1;
-    background-color: black;
+    background:black;
+    opacity: 0.4;
 }
+
 .HeaderCenterSection-container-Btn{
     width: 192px;
     height: 50px;
     top: 629px;
     left: 624.88px;
-    gap: 0px;
+    opacity: 1;
     border-radius: 65.58px;
-    opacity: 0px;
     background: rgba(255, 142, 73, 1);
     box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
     border: none;
@@ -34,7 +37,7 @@
 .HeaderCenterSection-container h1{
     position: relative;
     font-size: 60px;
-    font-weight: 1000;
+    font-weight: 900;
     line-height: 90px;
     text-align: center;
     text-underline-position: from-font;
@@ -46,14 +49,23 @@
 .HeaderCenterSection-container h1::before{
     content: attr(data-text);
     position: absolute;
-    top: 3px; 
-    left: 37px;
+    top: 2px; 
+    left: 35px;
     color: transparent;
-    -webkit-text-stroke: 0.5px #ffffffbf;
+    -webkit-text-stroke: 1px #ffffffbf;
     z-index: -1;
 }
 
-  
+.HeaderCenterSection-bottom-shadow{
+    width: 100vw;
+    height: 10rem;
+    background: linear-gradient(180deg,hsla(0,0%,7%,0) 22.03%,#111 88.3%);
+    position: absolute;
+    bottom: -200px;
+    right: -458px;
+    z-index: 2;
+    filter: blur(5);
+}  
 
 .HeaderCenterSection-container h1 span{
     color: rgba(92, 242, 163, 1);

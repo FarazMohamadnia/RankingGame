@@ -12,8 +12,7 @@
     border-radius: 18px;
     border: 2px;
     background: linear-gradient(180deg, rgba(255, 142, 73, 0.7) 0%, rgba(255, 142, 73, 0) 100%);
-    border: 2px solid;
-    border-color: linear-gradient(93.39deg, rgba(255, 255, 255, 0.8) 1.9%, rgba(255, 255, 255, 0) 100.98%);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -35,8 +34,7 @@
 .bodySection5-title{
     width: 554px;
     height: 120px;
-    font-size: 50px;
-    font-weight: 1000;
+    font-weight: 900;
     line-height: 60px;
     text-align: left;
     margin-bottom: 20px;
@@ -76,13 +74,8 @@
 
 .bodySection5-polygon{
     position: absolute;
-    content: '';
-    width: 14px;
-    height: 14px;
-    background: rgba(255, 142, 73, 1);
-    box-shadow: 0px 3px 18.7px 0px rgba(255, 142, 73, 1);
-    bottom: 95px;
-    right: 700px;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    transform:rotate(180deg);
+    bottom: 60px;
+    right: 680px;
+    transform:translate(-50%, -50%);
+    filter: drop-shadow(0px 0px 4px rgba(255, 142, 73, 1));
 }

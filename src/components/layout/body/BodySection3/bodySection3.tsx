@@ -1,6 +1,8 @@
 import './bodySection3.css'
 import img from '../../../../asset/img/body-Images/Section3/computerIcon.png';
-import img1 from '../../../../asset/img/body-Images/Section3/Icon1.png'
+import img1 from '../../../../asset/img/body-Images/Section3/Icon1.png';
+import { MdOutlineArrowDropDown } from "react-icons/md";
+
 export default function BodySection3(){
     return(
         <div className='BodySection3-container'>
@@ -8,7 +10,7 @@ export default function BodySection3(){
                 <div className='BodySection3-topSection-right'>
                     <img src={img1.src}/>
                     <p className='text-light fs-5 m-0 p-0'>Unleash Your Inner Gamer;</p>
-                    <p className='color2 fs-2'>Earn <span className='color1'>Real Rewards</span></p>
+                    <p className='color2 fs-1'>Earn <span className='color1'>Real Rewards</span></p>
                 </div>
                 <div>
                     <img className='BodySection3-topSection-image-style' src={img.src}/>
@@ -25,7 +27,7 @@ export default function BodySection3(){
                         </div>
                 </div>
             </div>
-            <span className='BodySection3-polygon'></span>
+            <span className=''><MdOutlineArrowDropDown className='BodySection3-polygon' color='rgba(92, 242, 163, 1)' size={'35px'}/></span>
         </div>
     )
 }

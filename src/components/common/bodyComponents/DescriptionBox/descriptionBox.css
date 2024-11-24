@@ -4,14 +4,11 @@
     height: 322px;
     gap: 10px;
     border-radius: 16px;
-    opacity: 0px;
-    border: 2px solid;
-    border-color : linear-gradient(130.71deg, #FFFFFF, rgba(255, 255, 255, 0.5) 113.56%);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     padding-top: 131px;
     padding-inline: 28px;
     margin: 10px;
-    background: rgba(154, 81, 255, 0.08);
-
+    background: rgba(154, 81, 255, 0.1);
 }
 
 .DescriptionBox-container img{
