@@ -81,6 +81,7 @@
     text-align: left;
     text-decoration-line: underline;
     text-decoration-style: solid;
+    cursor: pointer;
 }
 
 .footer-Icon-Section{

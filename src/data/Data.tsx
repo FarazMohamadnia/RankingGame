@@ -33,7 +33,7 @@ export const NewData = [
         number : 6,
         title : 'Join the Endless Opportunities',
         text : 'Tap to dive into the new era of gaming opportunities. From epic tournaments to intense challenges, there`s always a new way to level up and dominate your gaming career.',
-        color : 'linear-gradient(to top left, rgba(255, 142, 73, 0.5) 20%, rgba(255, 142, 73, 1) 140.98%)'
+        color : ''
     }
 ]
 

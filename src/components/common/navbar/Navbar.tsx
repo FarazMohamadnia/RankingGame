@@ -15,7 +15,7 @@ export default function Navbar(){
                 </div>
             </div>
             <div className='navbar-section-2'>
-                <button>Join Now</button>
+                <a href='#section5'><button>Join Now</button></a>
             </div>
         </div>
     )

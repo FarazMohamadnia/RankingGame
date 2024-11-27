@@ -3,6 +3,7 @@ import Navbar from "@/components/common/navbar/Navbar";
 import './Header.css'
 import HeaderCenterSection from "@/components/common/HeaderCenterSection/headerCenterSection";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { MdOutlineArrowDropDown } from "react-icons/md";
 export default function Header(){
     return(
         <div className="Header-container">
@@ -13,7 +14,8 @@ export default function Header(){
                 <HeaderCenterSection />
             </div>
             <div className="Header-arrow-down">
-                <IoMdArrowDropdown style={{filter:'drop-shadow(0px 3px 18.7px rgb(92, 242, 163)'}} width={'14px'} height={'14px'} color="rgba(92, 242, 163, 1)"/>
+                {/* <IoMdArrowDropdown style={{filter:'drop-shadow(0px 3px 18.7px rgb(92, 242, 163)'}} size={'2rem'} color="rgba(92, 242, 163, 1)"/> */}
+                <MdOutlineArrowDropDown className='BodySection3-polygon' color='rgba(92, 242, 163, 1)' size={'50px'}/>
             </div>
         </div>
     )

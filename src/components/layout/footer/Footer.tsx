@@ -17,7 +17,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className='footer-Icon-Section'>
-                    <FaFacebook fontSize={'24px'}/>
+                    <FaFacebook className='' fontSize={'24px'}/>
                     <FaInstagram fontSize={'24px'}/>
                     <FaXTwitter fontSize={'24px'}/>
                     <FaLinkedin fontSize={'24px'}/>

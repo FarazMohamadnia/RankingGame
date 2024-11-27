@@ -32,6 +32,8 @@
 .navbar-component-links a:hover{
     color: #5CF2A3;
     transition: 0.5s;
+    transform: scale(1.1);
+    text-shadow: 1px 5px 5px #5CF2A3;
 }
 
 .navbar-section-1{
