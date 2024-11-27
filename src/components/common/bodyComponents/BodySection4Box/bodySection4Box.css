@@ -1,0 +1,25 @@
+.bodySection4Box-container{
+    width: 487px;
+    height: 145px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px;
+    background: linear-gradient(179.9deg, rgba(102, 102, 102, 0.1) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
+    background-blend-mode: multiply;
+    border: 2px solid rgba(92, 242, 163, 0.6);
+    color: white;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.bodySection4Box-text-Section{
+    width: 205px;
+    left: 267px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: left;
+}

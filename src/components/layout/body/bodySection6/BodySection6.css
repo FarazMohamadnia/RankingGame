@@ -1,0 +1,29 @@
+.bodySection6-Container{
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.BodySection6-Icon{
+    position: absolute;
+    background-image: url('../../../../asset/img/body-Images/Section6/Icon.png');
+    top: -50px;
+    left: 653px;
+    width: 146.73px;
+    height: 128.9px;
+    border: 4px;
+    opacity: 0.15px;
+}
+
+.BodySection6-article-layout{
+    margin-top: 60px;
+    padding-inline: 120px;
+    width:1,136px;
+    height:446px;
+    gap: 20px;
+    display: flex;
+    margin-inline: auto;
+}
+
+.BodySection6-article-layout a{
+    text-decoration: none;
+}

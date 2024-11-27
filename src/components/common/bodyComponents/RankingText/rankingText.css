@@ -1,0 +1,43 @@
+.RankingText-container{
+    width: 434px;
+    height: 145px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    padding-inline: 25px;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px -50px 36px -28px inset;
+    margin: 20px;
+}
+
+.RankingText-number{
+    font-size: 110px;
+    width: 35px;
+    height: 135px;
+    opacity: 20%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    margin-right: 20px;
+    text-shadow: 7px 2px 20px white;
+}
+
+.RankingText-title-style{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: left;
+}
+
+.RankingText-text-style{
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 16.8px;
+    text-align: justify;
+    color: white;
+}
+
+.RankingText-text{
+    margin-top:10px;
+}

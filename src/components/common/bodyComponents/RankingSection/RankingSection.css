@@ -1,0 +1,126 @@
+.RankingSection-container{
+    position: relative;
+    width: 1136px;
+    height: 902px;
+    border-radius: 19px;
+    margin-inline: 153px;
+    width: 1136px;
+    border: 2px solid;
+    border-color: #FF8E49;
+    background: rgba(128, 128, 128, 0.1);
+    z-index: 0;
+    padding-inline: 45px;
+}
+
+.RankingSection-center-image{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    left: 518px;
+    top: 40px;
+}
+
+.RankingSection-container h3{
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 43px;
+    text-align: center;
+    font-weight:800;
+    margin-bottom: 40px;
+    margin-top: 114px;
+}
+
+.RankingSection-description{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.RankingSection-line{
+    position: absolute;
+    border: 1px dashed #FF8E49;
+    width: 45px;
+    z-index: -1;
+}
+
+.RankingSection-line1{
+    position: absolute;
+    border: 1px dashed #FF8E49;
+    width: 45px;
+    left: 20px;
+    top: 90px;
+}
+
+.RankingSection-line1::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    transform: translateY(-50%); 
+    width: 10px; 
+    height: 10px;
+    background-color: #FF8E49; 
+    border-radius: 50%;
+}
+
+.RankingSection-line-size1{
+    top:90px;
+    left: 499px;
+}
+.RankingSection-line-size2{
+    top:280px;
+    left: 499px;
+}
+
+.RankingSection-line-size3{
+    top:460px;
+    left: 499px;
+}
+
+.RankingSection-line-size4{
+    top:460px;
+    right: 22px;
+}
+
+.RankingSection-line-size4::after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    transform: translateY(-50%); 
+    width: 10px; 
+    height: 10px;
+    background-color: #FF8E49; 
+    border-radius: 50%;
+}
+
+.RankingSection-line-right{
+    content: '';
+    position: absolute;
+    top: 90px;
+    right: 23px;
+    width: 46px;
+    height: 190px;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px dashed #FF8E49;
+    border-left: none;
+}
+
+.RankingSection-line-left{
+    content: '';
+    position: absolute;
+    top: 275px;
+    left: 23px;
+    width: 46px;
+    height: 190px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px dashed #FF8E49;
+    border-right: none;
+}
+
+.RankingSection-arrow-style{
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #FF8E49;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}

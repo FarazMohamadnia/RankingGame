@@ -1,0 +1,50 @@
+.DescriptionBox-container{
+    position: relative;
+    width: 345px;
+    height: 322px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding-top: 131px;
+    padding-inline: 28px;
+    margin: 10px;
+    background: rgba(154, 81, 255, 0.1);
+}
+
+.DescriptionBox-container img{
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    max-width: 238px;
+    height: 238px;
+    display: flex;
+}
+
+.DescriptionBox-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.DescriptionBox-text{
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 19.2px;
+    text-align: justify;
+    text-decoration-skip-ink: none;
+}
+
+.DescriptionBox-animation-setting-1{
+    animation-iteration-count: infinite; 
+    --animate-duration: 26s; 
+    --animate-delay: 1s;
+}
+.DescriptionBox-animation-setting-2{
+    animation-iteration-count: infinite; 
+    --animate-duration: 28s; 
+    --animate-delay: 0.5s;
+}
+.DescriptionBox-animation-setting-3{
+    animation-iteration-count: infinite; 
+    --animate-duration: 30s; 
+    --animate-delay: 1s;
+}

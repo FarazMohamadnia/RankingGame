@@ -1,0 +1,92 @@
+.HeaderCenterSection-container{
+    position: relative;
+    width: 525px;
+    height: 280px;
+    margin-top: 275px;
+    text-align: center;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.HeaderCenterSection-container video{
+    width: 1500px;
+    height: 850px;
+    position: absolute;
+    left: -500px;
+    top: -390px;
+    z-index: -1;
+    background:black;
+    opacity: 0.4;
+}
+
+.HeaderCenterSection-container-Btn{
+    width: 192px;
+    height: 50px;
+    top: 629px;
+    left: 624.88px;
+    opacity: 1;
+    border-radius: 65.58px;
+    background: rgba(255, 142, 73, 1);
+    box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
+    border: none;
+    transition: 0.5s;
+    border-left: 0.5px solid rgb(255, 255, 255);
+    border-top: 0.5px solid rgb(255, 255, 255);
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+
+.HeaderCenterSection-container-Btn:hover{
+    background-color: rgb(250, 157, 99);
+    transition: 0.5s;
+}
+
+.HeaderCenterSection-container h1{
+    position: relative;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 90px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 142, 73, 1);
+    z-index: 2;
+}
+
+.HeaderCenterSection-container h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 2px; 
+    left: 35px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffffbf;
+    z-index: -1;
+}
+
+.HeaderCenterSection-bottom-shadow{
+    width: 100vw;
+    height: 10rem;
+    background: linear-gradient(180deg,hsla(0,0%,7%,0) 22.03%,#111 88.3%);
+    position: absolute;
+    bottom: -200px;
+    right: -458px;
+    z-index: 2;
+    filter: blur(5);
+}  
+
+.HeaderCenterSection-container h1 span{
+    color: rgba(92, 242, 163, 1);
+}
+
+.HeaderCenterSection-container-Btn-animation-setting{
+    --animate-duration: 25s;
+    --animate-delay: 1s;
+}
+
+.HeaderCenterSection-container-text-animation-setting{
+    --animate-duration: 5s;
+    --animate-delay: 0.2s;
+}
+

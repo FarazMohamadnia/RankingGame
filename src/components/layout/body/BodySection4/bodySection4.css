@@ -1,0 +1,51 @@
+.bodySection4-container{
+    padding-bottom: 4rem;
+}
+.bodySection4-layout{
+    width: 1137px;
+    gap: 10px;
+    border-radius: 16px;
+    background: linear-gradient(179.9deg, rgba(102, 102, 102, 0) 58.36%, rgba(42, 42, 42, 0.47213) 79.63%, rgba(0, 0, 0, 0.8) 99.91%);
+    background-blend-mode: multiply;
+    border: 2px solid rgba(92, 242, 163, 0.6);
+    margin-inline: auto;
+    margin-top: 80px;
+    z-index: 1;
+    padding-inline: 50px;
+    padding-bottom: 70px ;
+    position: relative;
+}
+
+.bodySection4-Icon{
+    position: absolute;
+    content: '';
+    background-image: url('../../../../asset/img/body-Images/Section4/Vector.png');
+    width: 132px;
+    height: 155px;
+    top: 80px;
+    left: 499px;
+    gap: 0px;
+    opacity: 0.15px;
+
+}
+
+.bodySection4-Star-Icon{
+    position: absolute;
+    background-image: url('../../../../asset/img/body-Images/Section4/Vector2.png');
+    width: 62px;
+    height: 57px;
+    top: 30px;
+    left: 35px;
+    opacity: 0.15px;
+}
+
+.bodySection4-layout h5{
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 115px;
+    margin-bottom: 60px;
+    z-index: 2;
+}

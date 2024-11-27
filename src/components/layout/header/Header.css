@@ -1,0 +1,18 @@
+.Header-container{
+    padding-top:41px ;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 22.03%, #111111 88.3%);
+    height: 800px;  
+    position: relative;
+}
+
+.Header-container video{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.Header-arrow-down{
+    text-align: center;
+    margin-top: 35px;
+}

@@ -1,0 +1,48 @@
+.BodySection1-container{
+    position: relative;
+    margin-top: 90px;
+}
+
+.BodySection1-topSection{
+    padding-inline: 150px;
+}
+
+.BodySection1-topSection-left{
+    padding-bottom: 40px;
+    padding-top: 200px;
+}
+
+
+.BodySection1-topSection img{
+    width:1008px;
+    height: 567px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    z-index: 1;
+}
+
+.BodySection1-topSection-Icon{
+    position: relative;
+    width: 84px;
+    height: 84px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: 0.3px solid rgba(255, 255, 255, 0.5);
+}
+
+.BodySection1-topSection-Icon img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 12.5px;
+    top: 12.5px;
+}
+
+.BodySection1-bottomSection{
+    padding-bottom: 70px;
+}
