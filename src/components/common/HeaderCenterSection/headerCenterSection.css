@@ -1,7 +1,7 @@
 .HeaderCenterSection-container{
     position: relative;
     width: 525px;
-    height: 258px;
+    height: 180px;
     margin-top: 200px;
     text-align: center;
     margin-inline: auto;
@@ -16,7 +16,7 @@
     height: 850px;
     position: absolute;
     left: -500px;
-    top: -390px;
+    top: -360px;
     z-index: -1;
     background:black;
     opacity: 0.4;
@@ -33,9 +33,9 @@
     box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
     border: none;
     transition: 0.5s;
-    border-left: 0.5px solid rgb(255, 255, 255);
-    border-top: 0.5px solid rgb(255, 255, 255);
-    border-bottom: 0.5px solid rgb(255, 255, 255);
+    border-left: 0.5px solid rgba(92, 242, 163, 1);
+    border-top: 0.5px solid rgba(92, 242, 163, 1);
+    border-bottom: 0.5px solid rgba(92, 242, 163, 1);
 }
 
 .HeaderCenterSection-container-Btn:hover{
@@ -67,8 +67,8 @@
 
 .HeaderCenterSection-bottom-shadow{
     width: 100vw;
-    height: 10rem;
-    background: linear-gradient(180deg,hsla(0,0%,7%,0) 22.03%,#111 88.3%);
+    height: 5rem;
+    background: linear-gradient(to top ,black , rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0));
     position: absolute;
     bottom: -200px;
     right: -458px;

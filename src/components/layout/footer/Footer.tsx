@@ -17,11 +17,11 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className='footer-Icon-Section'>
-                    <FaFacebook className='' fontSize={'24px'}/>
-                    <FaInstagram fontSize={'24px'}/>
-                    <FaXTwitter fontSize={'24px'}/>
-                    <FaLinkedin fontSize={'24px'}/>
-                    <FaYoutube fontSize={'24px'}/>
+                    <FaFacebook color='rgba(0, 0, 255, 0.695)' fontSize={'24px'}/>
+                    <FaInstagram color='rgba(196, 30, 58, 0.61)' fontSize={'24px'}/>
+                    <FaXTwitter color='white' fontSize={'24px'}/>
+                    <FaLinkedin color='rgba(0, 0, 255, 0.695)' fontSize={'24px'}/>
+                    <FaYoutube color='rgba(255, 0, 0, 0.699)' fontSize={'24px'}/>
                 </div>
             </div>
         </div>

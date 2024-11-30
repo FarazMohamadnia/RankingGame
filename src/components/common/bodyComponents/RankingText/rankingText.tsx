@@ -20,7 +20,7 @@ export default function RankingText(data : DataObj ){
                 <p>{number}</p>
             </div>
             <div className='RankingText-text'>
-                <p className='RankingText-title-style color1 mb-2 px-3'>{title}</p>
+                <p className='RankingText-title-style mb-2 px-3'>{title}</p>
                 <p className='RankingText-text-style px-3'>{text}</p>
             </div>
         </div>

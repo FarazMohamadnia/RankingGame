@@ -1,7 +1,7 @@
 import './globals.css'
 export const metadata = {
-  title: 'prozhe tmrini',
-  description: 'next app',
+  title: 'Ranking Game',
+  description: '',
 }
 
 export default function RootLayout({

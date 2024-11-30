@@ -13,14 +13,17 @@
 }
 
 .RankingText-number{
+    position: relative;
+    z-index: 5;
     font-size: 110px;
     width: 35px;
     height: 135px;
-    opacity: 20%;
-    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+    /* color: rgba(255, 255, 255, 1); */
+    color: rgba(92, 242, 163, 1);
     font-weight: bold;
     margin-right: 20px;
-    text-shadow: 7px 2px 20px white;
+    text-shadow: 7px 2px 20px rgba(92, 242, 162, 0.699);
 }
 
 .RankingText-title-style{
@@ -28,6 +31,7 @@
     font-weight: bold;
     line-height: 24px;
     text-align: left;
+    color: rgba(92, 242, 163, 1);
 }
 
 .RankingText-text-style{

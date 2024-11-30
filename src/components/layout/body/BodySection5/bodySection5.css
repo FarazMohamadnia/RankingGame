@@ -71,7 +71,7 @@
     background: rgba(92, 242, 163, 1);
     cursor: pointer;
     transition: 0.5s;
-    border: 1px solid #ffffffa2;
+    border: 1px solid rgba(255, 142, 73, 1);
 }
 
 .bodySection5-container button:hover{

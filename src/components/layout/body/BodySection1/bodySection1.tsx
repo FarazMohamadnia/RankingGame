@@ -5,7 +5,7 @@ import RankingSection from '@/components/common/bodyComponents/RankingSection/ra
 
 export default function BodySection1(){
     return(
-        <div className='BodySection1-container'>
+        <div id='Scroll-BTN' className='BodySection1-container'>
             <div className='BodySection1-topSection'>
                 <div id='section1' className='BodySection1-topSection-left'>
                     <div data-aos="zoom-out-right" data-aos-duration="800" className='BodySection1-topSection-Icon'>

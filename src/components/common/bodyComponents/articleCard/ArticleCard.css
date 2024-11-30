@@ -10,6 +10,7 @@
     text-align: center;
     padding-inline: 15px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .ArticleCard-container img{
@@ -18,6 +19,12 @@
     border-radius: 15px;
     margin-bottom: 15px;
     margin-block: 15px;
+}
+
+.ArticleCard-container:hover{
+    border-color: rgba(92, 242, 163, 1);
+    background-color: rgba(16, 16, 16, 0.987);
+    transition: 1s;
 }
 
 .ArticleCard-fontSize{

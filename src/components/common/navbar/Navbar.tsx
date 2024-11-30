@@ -11,7 +11,7 @@ export default function Navbar(){
                     <a href="#section1">Advantages</a>
                     <a href="#section2">How it works</a>
                     <a href="#section3">Benefits</a>
-                    <a href="#section4">Blog</a>
+                    <a href="https://ranking.rz.game/blog/">Blog</a>
                 </div>
             </div>
             <div className='navbar-section-2'>
