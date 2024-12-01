@@ -82,6 +82,12 @@
     text-decoration-line: underline;
     text-decoration-style: solid;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-Link-style:hover{
+    color: rgb(206, 206, 206);
+    transition: 0.3s;
 }
 
 .footer-Icon-Section{

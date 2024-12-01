@@ -54,12 +54,12 @@
     height: 49.84px;
     border-radius: 65.58px;
     border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.629);
+    border-color: rgba(255, 255, 255, 0.329);
     backdrop-filter: blur(13.800000190734863px);
-    background-color: rgba(0, 0, 0, 0.594);
+    background-color: rgba(255, 255, 255, 0.35);
     padding-inline: 20px;
     margin-bottom: 15px;
-    color: white;
+    color: black;
 }
 
 .bodySection5-container button{
