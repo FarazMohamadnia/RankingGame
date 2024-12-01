@@ -3,7 +3,7 @@
     height: 446px;
     border-radius: 20px;
     border: 2px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(48, 48, 48, 0.5);
     border: 2px solid;
     border-color: #FF8E49;
     margin-inline: 15px;
@@ -23,7 +23,7 @@
 
 .ArticleCard-container:hover{
     border-color: rgba(92, 242, 163, 1);
-    background-color: rgba(16, 16, 16, 0.987);
+    background-color: rgba(48, 48, 48, 0.7);
     transition: 1s;
 }
 

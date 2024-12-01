@@ -27,6 +27,12 @@
     font-weight:800;
     margin-bottom: 40px;
     margin-top: 114px;
+    transition: 0.7s;
+}
+
+.RankingSection-container h3:hover{
+   color: #ff8f49cb;
+    cursor: pointer;
 }
 
 .RankingSection-description{

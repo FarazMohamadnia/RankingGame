@@ -58,7 +58,6 @@ export default function BodySection5(){
                     <button disabled={BtnDisabled} onClick={sendData}>Join Waitlist</button>
                 </div>
             </div>
-            <span><MdOutlineArrowDropDown className='bodySection5-polygon' color='rgba(255, 142, 73, 1)' size={'45px'}/></span>
         </div>
     )
 }

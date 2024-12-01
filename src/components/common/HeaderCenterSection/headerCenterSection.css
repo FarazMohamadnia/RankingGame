@@ -1,7 +1,7 @@
 .HeaderCenterSection-container{
     position: relative;
     width: 525px;
-    height: 180px;
+    height: 200px;
     margin-top: 200px;
     text-align: center;
     margin-inline: auto;
@@ -13,7 +13,7 @@
 
 .HeaderCenterSection-container video{
     width: 1500px;
-    height: 850px;
+    height: 800px;
     position: absolute;
     left: -500px;
     top: -360px;
@@ -29,18 +29,18 @@
     left: 624.88px;
     opacity: 1;
     border-radius: 65.58px;
-    background: rgba(255, 142, 73, 1);
+    background: rgba(255, 143, 73, 0.802);
     box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
     border: none;
     transition: 0.5s;
-    border-left: 0.5px solid rgba(92, 242, 163, 1);
-    border-top: 0.5px solid rgba(92, 242, 163, 1);
-    border-bottom: 0.5px solid rgba(92, 242, 163, 1);
+    border: 1.5px solid rgba(92, 242, 163, 1);
+    transform: scale(1);
 }
 
 .HeaderCenterSection-container-Btn:hover{
-    background-color: rgb(250, 157, 99);
+    background-color: rgb(255, 125, 44);
     transition: 0.5s;
+    transform: scale(1.05);
 }
 
 .HeaderCenterSection-container h1{
@@ -67,10 +67,10 @@
 
 .HeaderCenterSection-bottom-shadow{
     width: 100vw;
-    height: 5rem;
-    background: linear-gradient(to top ,black , rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0));
+    height: 10rem;
+    background: linear-gradient(to top ,rgba(255, 255, 255, 0.15) , rgba(0, 0, 0,0.1),rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0));
     position: absolute;
-    bottom: -200px;
+    bottom: -245px;
     right: -458px;
     z-index: 2;
     filter: blur(5);
@@ -83,10 +83,22 @@
 .HeaderCenterSection-container-Btn-animation-setting{
     --animate-duration: 25s;
     --animate-delay: 1s;
+    cursor: pointer;
 }
 
 .HeaderCenterSection-container-text-animation-setting{
     --animate-duration: 5s;
     --animate-delay: 0.2s;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-size: 2.3rem;
+    height: 130px;
+}
+
+.HeaderCenterSection-container-text-animation-setting:hover{
+    transition: 1s;
+    font-weight: bold;
+    font-size: 2.5rem;
 }
 

@@ -18,7 +18,7 @@ export default function HeaderCenterSection(){
                 <img className='mx-auto' src={textImg.src}/>
             </div>
             <div>
-                <p className='HeaderCenterSection-container-text-animation-setting fs-1 text-light animate__animated animate__fadeInUp'>
+                <p className='HeaderCenterSection-container-text-animation-setting animate__animated animate__fadeInUp'>
                     Rewrite your Gaming Story!
                     Get Ranked, Get Rich
                 </p>

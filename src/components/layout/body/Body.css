@@ -1,5 +1,5 @@
 .body-container{
-    background-color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
     position: relative;
     overflow: hidden;
 }
@@ -27,7 +27,7 @@
     filter: blur(850px);
     right: -800px;
     top: 1400px;
-    background:linear-gradient(rgba(0, 0, 0,1) , rgba(0, 0, 0, 0.1)), url('../../../asset/img/body-Images/Section2/GreenVector.png');
+    background:linear-gradient(rgba(0, 0, 0,1) , rgba(0, 0, 0, 0.6)), url('../../../asset/img/body-Images/Section2/GreenVector.png');
     background-repeat: no-repeat;
     z-index: 0;
 }

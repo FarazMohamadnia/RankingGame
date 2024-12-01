@@ -1,7 +1,7 @@
 .RankingText-container{
     width: 434px;
     height: 145px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 142, 73, 1);
     border-radius: 16px;
     padding-inline: 25px;
     padding-block: 10px;
@@ -10,6 +10,7 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 1) 0px -50px 36px -28px inset;
     margin: 20px;
+    cursor: pointer;
 }
 
 .RankingText-number{
@@ -35,7 +36,7 @@
 }
 
 .RankingText-text-style{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 450;
     line-height: 16.8px;
     text-align: justify;

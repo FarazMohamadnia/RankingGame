@@ -11,7 +11,7 @@
     gap: 10px;
     border-radius: 18px;
     border: 2px;
-    background: linear-gradient(180deg, rgba(255, 142, 73, 0.7) 0%, rgba(255, 142, 73, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 142, 73, 1) 0%, rgba(255, 142, 73, 0) 100%);
     border: 2px solid rgba(255, 255, 255, 0.7);
     margin-inline: auto;
     display: flex;
@@ -68,21 +68,13 @@
     top: 189px;
     left: 903.15px;
     border-radius: 65.58px;
-    background: rgba(92, 242, 163, 1);
+    background: rgba(92, 242, 162, 0.799);
     cursor: pointer;
     transition: 0.5s;
-    border: 1px solid rgba(255, 142, 73, 1);
+    border: 1.5px solid rgba(255, 142, 73, 1);
 }
 
 .bodySection5-container button:hover{
-    background-color: #8fecbb;
+    background-color: #00ff77;
     transition: 0.5s;
-}
-
-.bodySection5-polygon{
-    position: absolute;
-    bottom: 60px;
-    right: 680px;
-    transform:translate(-50%, -50%);
-    filter: drop-shadow(0px 0px 4px rgba(255, 142, 73, 1));
 }

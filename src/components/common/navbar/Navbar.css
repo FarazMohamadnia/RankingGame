@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     margin-inline:auto;
+    border: 1px solid #FF8E49;
 }
 
 .navbar-component-Icon img{
@@ -55,19 +56,18 @@
     width: 160px;
     height: 43px;
     border-radius: 56px;
-    background: #5CF2A3;
+    background: #5cf2a2d5;
     color: black;
     border: none;
     transition: 0.5s;
-    border-left: 1px solid #FF8E49;
-    border-bottom: 1px solid #FF8E49;
-    border-top: 1px solid #FF8E49;
+    border: 1.5px solid #FF8E49;
 }
 
 .navbar-section-2 button:hover{
-    background-color: #8fecbb;
+    background-color: #33ff92;
     color: rgb(62, 62, 62);
     transition: 0.5s;
+    transform: scale(1.05);
 }
 
 .navbar-animation-Setting{

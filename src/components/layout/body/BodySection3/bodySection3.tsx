@@ -27,7 +27,6 @@ export default function BodySection3(){
                         </div>
                 </div>
             </div>
-            <span><MdOutlineArrowDropDown className='BodySection3-polygon' color='rgba(92, 242, 163, 1)' size={'35px'}/></span>
         </div>
     )
 }

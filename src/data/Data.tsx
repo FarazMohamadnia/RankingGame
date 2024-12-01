@@ -2,7 +2,7 @@ export const NewData = [
     {
         number : 1,
         title : 'Monetize Your Skills',
-        text : 'Turn your gaming skills into real rewards. Every high score and victory translates into tangible earnings.Your skills are more valuable than ever.',
+        text : 'Turn your gaming skills into real rewards. Every high score and victory translates into tangible earnings. Your skills are more valuable than ever.',
         color : ''
     },
     {

@@ -23,7 +23,7 @@ export default function BodySection1(){
                     </div>
                 </div>
                 <div className=''>
-                    <img data-aos="zoom-out-left" data-aos-duration="800" src={img1.src}/>
+                    <img className='BodySection1-filter-shadow' data-aos="zoom-out-left" data-aos-duration="800" src={img1.src}/>
                 </div>
             </div>
             <div className='BodySection1-bottomSection'>

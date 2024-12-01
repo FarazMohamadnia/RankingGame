@@ -62,7 +62,7 @@ export default function BodySection6(){
         <div className='bodySection6-Container'>
             <div>
                 <span className='BodySection6-Icon'></span>
-                <h6 data-aos-duration="800"  data-aos="zoom-in" className='fs-1 text-light text-center'>
+                <h6 data-aos-duration="800"  data-aos="zoom-in" className='fs-1 text-center'>
                     Our Gaming Magazine
                 </h6>
             </div>

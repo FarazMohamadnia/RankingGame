@@ -11,6 +11,11 @@
     color: white;
 }
 
+.bodySection2-container h4:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+
 .bodySection2-container span{
     content: '';
     position: absolute;
