@@ -2,9 +2,9 @@
     position: relative;
     padding-inline: 152px;
     color: white;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
-
+ 
 .bodySection5-layout{
     width: 1137px;
     height: 324px;
@@ -24,10 +24,10 @@
 .bodySection5-Icon{
     position: absolute;
     background-image: url('../../../../asset/img/body-Images/Section5/gameIcon2.png');
-    width: 351.88px;
+    width: 300px;
     height: 324.41px;
     top: 0px;
-    right: 100px;
+    right: 182px;
     opacity: 0.2px;
 }
 
