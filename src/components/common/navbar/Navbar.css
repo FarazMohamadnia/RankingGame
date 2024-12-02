@@ -56,11 +56,11 @@
     width: 160px;
     height: 43px;
     border-radius: 56px;
-    background: #5cf2a2d5;
+    background: #5cf2a29b;
     color: black;
     border: none;
     transition: 0.5s;
-    border: 1.5px solid #FF8E49;
+    border: 2px solid #FF8E49;
 }
 
 .navbar-section-2 button:hover{

@@ -12,7 +12,7 @@
     border-radius: 18px;
     border: 2px;
     background: linear-gradient(180deg, rgba(255, 142, 73, 1) 0%, rgba(255, 142, 73, 0) 100%);
-    border: 2px solid rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(255, 142, 73, 1);
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.329);
     backdrop-filter: blur(13.800000190734863px);
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.75);
     padding-inline: 20px;
     margin-bottom: 15px;
     color: black;
@@ -71,7 +71,7 @@
     background: rgba(92, 242, 162, 0.799);
     cursor: pointer;
     transition: 0.5s;
-    border: 1.5px solid rgba(255, 142, 73, 1);
+    border: 2px solid rgba(255, 142, 73, 1);
 }
 
 .bodySection5-container button:hover{

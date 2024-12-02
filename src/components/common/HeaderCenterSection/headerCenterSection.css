@@ -2,7 +2,7 @@
     position: relative;
     width: 525px;
     height: 200px;
-    margin-top: 200px;
+    margin-top: 170px;
     text-align: center;
     margin-inline: auto;
     display: flex;
@@ -13,27 +13,27 @@
 
 .HeaderCenterSection-container video{
     width: 1500px;
-    height: 800px;
+    height: 700px;
     position: absolute;
     left: -500px;
-    top: -360px;
+    top: -260px;
     z-index: -1;
     background:black;
     opacity: 0.4;
 }
 
 .HeaderCenterSection-container-Btn{
+    position: relative;
+    z-index: 3;
     width: 192px;
     height: 50px;
-    top: 629px;
-    left: 624.88px;
     opacity: 1;
     border-radius: 65.58px;
     background: rgba(255, 143, 73, 0.802);
     box-shadow: 0px 4px 20px 0px rgba(255, 142, 73, 0.6);
     border: none;
     transition: 0.5s;
-    border: 1.5px solid rgba(92, 242, 163, 1);
+    border: 2px solid rgba(92, 242, 163, 1);
     transform: scale(1);
 }
 
@@ -67,9 +67,8 @@
 
 .HeaderCenterSection-bottom-shadow{
     width: 100vw;
-    height: 10rem;
-    /* background: linear-gradient(to top ,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.085) , rgba(0, 0, 1),rgba(0, 0, 0, 1) , rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.03)); */
-    background:linear-gradient(to top , rgba(255, 255, 255, 0.07) , rgba(0, 0, 1) ,rgba(0, 0, 1), rgba(0, 0, 0, 0)) ;
+    height: 800px;
+    background:linear-gradient(to top , rgba(40 , 40 , 40 , 1) 20% ,rgba(40 , 40 , 40 , 0.1));
     position: absolute;
     bottom: -245px;
     right: -458px;
@@ -88,6 +87,8 @@
 }
 
 .HeaderCenterSection-container-text-animation-setting{
+    position: relative;
+    z-index: 3;
     --animate-duration: 5s;
     --animate-delay: 0.2s;
     cursor: pointer;

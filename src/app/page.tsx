@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <div className="home-layout">
       <div className="home-response">
-        <Header />
         <Body />
       </div>
     </div>

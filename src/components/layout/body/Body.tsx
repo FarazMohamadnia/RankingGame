@@ -6,13 +6,15 @@ import BodySection4 from "./BodySection4/bodySection4";
 import BodySection5 from "./BodySection5/bodySection5";
 import BodySection6 from "./bodySection6/BodySection6";
 import Footer from "../footer/Footer";
+import Header from "../header/Header";
 export default function Body(){
     return(
         <div className="body-container">
             <span className="body-background-image1"></span>
             <span className="body-background-image2"></span>
             <span className="body-background-image3"></span>
-            <div>
+            <div className="bg-color-body">
+                <Header />
                 <BodySection1 />
                 <BodySection2 />
                 <BodySection3 />

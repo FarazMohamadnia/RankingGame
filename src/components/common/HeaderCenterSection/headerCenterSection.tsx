@@ -1,6 +1,7 @@
 'use client'
 import './headerCenterSection.css'
 import textImg from '../../../asset/img/body-Images/Section1/RanktoearnText.png';
+import ScrollDownAnimation from '../scrollAnimation/scrollanimation';
 export default function HeaderCenterSection(){
     const scrollTo =()=>{
         // window.scro
@@ -25,6 +26,9 @@ export default function HeaderCenterSection(){
             </div>
             <div>
                 <a href='#Scroll-BTN'><button className='HeaderCenterSection-container-Btn HeaderCenterSection-container-Btn-animation-setting animate__bounceIn animate__animated'>Get Early Access</button></a>
+            </div>
+            <div>
+                <ScrollDownAnimation />
             </div>
             <span className='HeaderCenterSection-bottom-shadow'></span>
         </div>
