@@ -19,7 +19,6 @@
     left: 70px;
     top: -90px;
     z-index: 1;
-    /* filter: drop-shadow(0px 0px 10px rgba(92, 242, 162, 0.399)); */
     cursor: pointer;
     transition: 1s;
 }
@@ -39,7 +38,7 @@
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 5px;
-    border: 0.3px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 142, 73, 1);
     cursor: pointer;
 }
 
@@ -55,7 +54,7 @@
     height: 324px;
     gap: 10px;
     border-radius: 18px;
-    background: linear-gradient(180deg, rgba(255, 142, 73, 0.7) 0%, rgba(255, 142, 73, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 142, 73, 0.3) 0%, rgba(255, 142, 73, 0) 100%);
     margin-top: 350px;
     border: 2px solid rgba(255, 142, 73, 0.8);
     display: flex;

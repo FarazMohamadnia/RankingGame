@@ -11,23 +11,24 @@
     gap: 10px;
     border-radius: 18px;
     border: 2px;
-    background: linear-gradient(180deg, rgba(255, 142, 73, 1) 0%, rgba(255, 142, 73, 0) 100%);
-    border: 2px solid rgba(255, 142, 73, 1);
+    background: linear-gradient(180deg, rgba(255, 142, 73, 0.1) 0%, rgba(255, 142, 73, 0) 100%);
+    border: 2px solid #5bf3a4;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-inline:79px;
     padding-block: 50px;
+    position: relative;
 }
 
 .bodySection5-Icon{
     position: absolute;
     background-image: url('../../../../asset/img/body-Images/Section5/gameIcon2.png');
     width: 300px;
-    height: 324.41px;
+    height: 320.41px;
     top: 0px;
-    right: 182px;
+    right: 0px;
     opacity: 0.2px;
 }
 
@@ -53,13 +54,12 @@
     width: 344px;
     height: 49.84px;
     border-radius: 65.58px;
-    border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.329);
     backdrop-filter: blur(13.800000190734863px);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.902);
     padding-inline: 20px;
     margin-bottom: 15px;
     color: black;
+    border: 2px solid rgba(255, 142, 73, 1);
 }
 
 .bodySection5-container button{
@@ -68,13 +68,13 @@
     top: 189px;
     left: 903.15px;
     border-radius: 65.58px;
-    background: rgba(92, 242, 162, 0.799);
+    background: rgba(255, 142, 73, 0.66);
     cursor: pointer;
     transition: 0.5s;
-    border: 2px solid rgba(255, 142, 73, 1);
+    border: 2.5px solid rgba(92, 242, 162, 0.799);
 }
 
 .bodySection5-container button:hover{
-    background-color: #00ff77;
+    background-color: #00ff778f;
     transition: 0.5s;
 }

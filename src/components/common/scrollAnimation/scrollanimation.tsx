@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 import './scrollanimation.css'
@@ -6,7 +7,7 @@ const ScrollDownAnimation = () => {
 
   return (
     <div>
-      <Player
+        <Player
         autoplay
         loop
         src={animationData}

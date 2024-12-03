@@ -15,6 +15,13 @@
     align-items: center;
     margin: 10px;
 }
+
+.bodySection4Box-container:hover{
+    border: 2px solid rgb(91, 243, 164);
+    color: rgb(91, 243, 164);
+    cursor: pointer;
+}
+
 .bodySection4Box-text-Section{
     width: 205px;
     left: 267px;

@@ -1,6 +1,5 @@
 'use client'
 import Body from "@/components/layout/body/Body";
-import Header from "@/components/layout/header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 // @ts-expect-error This type is incompatible due to library limitations.
