@@ -25,7 +25,6 @@ const DescriptionBoxData =[
     }
 ]
 export default function BodySection2(){
-    console.log(img3)
     return(
         <div id='section2' className="bodySection2-container">
             <span></span>

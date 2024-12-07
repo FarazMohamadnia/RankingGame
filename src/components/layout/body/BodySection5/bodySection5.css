@@ -1,18 +1,18 @@
 .bodySection5-container{
     position: relative;
-    padding-inline: 152px;
+    /* padding-inline: 152px; */
     color: white;
     padding-bottom: 100px;
 }
  
 .bodySection5-layout{
-    width: 1137px;
+    width: 1141px;
     height: 324px;
     gap: 10px;
     border-radius: 18px;
-    border: 2px;
+    border: 3px;
     background: linear-gradient(180deg, rgba(255, 142, 73, 0.1) 0%, rgba(255, 142, 73, 0) 100%);
-    border: 2px solid #5bf3a4;
+    border: 2.5px solid #5bf3a4;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@
 .bodySection5-text{
     width: 549px;
     height: 56px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 450;
     line-height: 19.2px;
     text-align: left;
@@ -55,7 +55,7 @@
     height: 49.84px;
     border-radius: 65.58px;
     backdrop-filter: blur(13.800000190734863px);
-    background-color: rgba(255, 255, 255, 0.902);
+    background-color: rgba(223, 223, 223, 0.804);
     padding-inline: 20px;
     margin-bottom: 15px;
     color: black;

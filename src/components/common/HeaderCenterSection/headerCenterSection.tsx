@@ -3,9 +3,6 @@ import './headerCenterSection.css'
 import textImg from '../../../asset/img/body-Images/Section1/RanktoearnText.png';
 import ScrollDownAnimation from '../scrollAnimation/scrollanimation';
 export default function HeaderCenterSection(){
-    const scrollTo =()=>{
-        // window.scro
-    }
     return(
         <div className='HeaderCenterSection-container'>
             <video
