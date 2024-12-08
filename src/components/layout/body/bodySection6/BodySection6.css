@@ -36,3 +36,9 @@
 .BodySection6-article-layout a{
     text-decoration: none;
 }
+
+@media (min-width : 1450px) {
+    .BodySection6-article-layout{
+        padding-inline: 130px;
+    }
+}
