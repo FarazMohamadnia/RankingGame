@@ -8,7 +8,7 @@ export default function BodySection6(){
     const [Data, setData] = useState<DataObj[]>([]);
 
     const fetchData = async ()=>{
-        const response = await axios.get('https://ranking-game-ypm2.vercel.app/xmlTest/XMLFILE.xml');
+        const response = await axios.get('https://ranking-game-dp52.vercel.app/xmlTest/XMLFILE.xml');
         const xmlData = response.data;
 
         const parser = new DOMParser();
