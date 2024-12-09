@@ -5,7 +5,7 @@ import 'animate.css';
 // @ts-expect-error This type is incompatible due to library limitations.
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 export default function Home() {
   useEffect(()=>{
     AOS.init();

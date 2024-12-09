@@ -2,7 +2,9 @@ import ArticleCard, { DataObj } from '@/components/common/bodyComponents/article
 import './BodySection6.css'
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-
+// @ts-expect-error This type is incompatible due to library limitations.
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function BodySection6(){
     const [Data, setData] = useState<DataObj[]>([]);
@@ -55,7 +57,8 @@ export default function BodySection6(){
     console.log(Data)
 
     useEffect(()=>{
-        fetchData()
+        fetchData();
+        AOS.init();
     },[])
 
     return(
