@@ -8,7 +8,7 @@ export default function BodySection6(){
 
     const fetchData = async ()=>{
         try{
-        const response = await axios.get('https://ranking-game-wc9n.vercel.app/xmlTest/XMLFILE.xml');
+        const response = await axios.get('https://ranking-game.vercel.app/xmlTest/XMLFILE.xml');
         const xmlData = response.data;
 
         const parser = new DOMParser();
