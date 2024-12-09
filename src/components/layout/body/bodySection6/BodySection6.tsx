@@ -10,6 +10,7 @@ export default function BodySection6(){
     const [Data, setData] = useState<DataObj[]>([]);
 
     const fetchData = async ()=>{
+        try{
         const response = await axios.get('https://ranking-game-wc9n.vercel.app/xmlTest/XMLFILE.xml');
         const xmlData = response.data;
 
@@ -51,7 +52,9 @@ export default function BodySection6(){
         });
         const SendData = Data.slice(0,4);
         setData(SendData)
-
+        }catch(err){
+            console.log(err)
+        }
     }
 
     console.log(Data)
