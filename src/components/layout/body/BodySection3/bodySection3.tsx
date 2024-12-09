@@ -1,7 +1,6 @@
 import './bodySection3.css'
 import img from '../../../../asset/img/body-Images/Section3/computerIcon.png';
 import img1 from '../../../../asset/img/body-Images/Section3/Icon1.png';
-import { MdOutlineArrowDropDown } from "react-icons/md";
 
 export default function BodySection3(){
     return(

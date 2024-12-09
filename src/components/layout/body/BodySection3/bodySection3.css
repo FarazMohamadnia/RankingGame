@@ -1,5 +1,8 @@
 .BodySection3-container{
-    padding-inline : 152px;
+    /* padding-inline : 152px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 500px;
     margin: auto;
     position: relative;
@@ -50,7 +53,7 @@
 
 .BodySection3-BottomSection-box{
     position: relative;
-    width: 1137px;
+    width: 1139px;
     height: 324px;
     gap: 10px;
     border-radius: 18px;
@@ -62,6 +65,7 @@
     align-items: center;
     padding-inline: 90px;
 }
+
 
 
 .BodySection3-BottomSection-box button{
